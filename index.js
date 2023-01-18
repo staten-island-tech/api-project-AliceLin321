@@ -3,7 +3,5 @@ setTimeout(() => {console.log("Timer");
 }, 3000);
 console.log("end");
 //promises, data, & shows data
-function greet(name){
-    const greetPromise = new Promise (function(resolve, reject){
-        resolve (`Hello ${name}`);
-});
+
+const URL = https://random.dog/woof.json
