@@ -1,13 +1,38 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Album Builder</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
+
+  <body id="all">
+    <h1>What is your favorite pokemon??</h1>
+    <section class="form-parent">
+      <form id="form">
+        <div class="form-inputs">
+          <div class="form-input">
+            <label for="title">Pokemon Name</label>
+            <input type="text" id="title" class="text-box" required />
+          </div>
+          <div class="form-input">
+            <label for="artist">Pokemon Type</label>
+            <input type="text" id="artist" class="text-box" required />
+          </div>
+          <div class="form-input">
+            <label for="url">Enter Pokemon Image URL Here</label>
+            <input type="text" id="url" class="text-box" required />
+          </div>
+        </div>
+        <div class="hero-form-input">
+          <input type="submit" value="Submit" class="btn" />
+          
+        </div>
+      </form>
+    </section>
+    <section class="display" id="display"></section> 
+    </section>
+    <script src="index.js" type="module"></script>
   </body>
 </html>
